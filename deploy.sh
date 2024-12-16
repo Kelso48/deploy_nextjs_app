@@ -5,6 +5,7 @@ export NVM_DIR=$HOME/.nvm;
 
 cd /home/ubuntu/deploy_nextjs_app
 git pull origin master
+nvm install v16
 nvm use v16
 export PATH="$PATH:$(yarn global bin)"
 yarn install &&
